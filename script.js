@@ -3,7 +3,7 @@ async function removeBackground() {
   const file = fileInput.files[0];
 
   if (!file) {
-    alert("Select an image first!");
+    alert("Please select an image!");
     return;
   }
 

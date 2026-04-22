@@ -7,18 +7,19 @@
 </head>
 <body>
 
-<div class="container">
-  <h1>Background Remover</h1>
+  <div class="container">
+    <h1>AI Background Remover</h1>
 
-  <input type="file" id="imageInput">
+    <input type="file" id="imageInput" accept="image/*">
 
-  <button onclick="removeBackground()">Remove Background</button>
+    <button onclick="removeBackground()">Remove Background</button>
 
-  <div class="result">
-    <img id="output" />
+    <div class="preview">
+      <h3>Result:</h3>
+      <img id="output" />
+    </div>
   </div>
-</div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
